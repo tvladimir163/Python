@@ -46,7 +46,8 @@ zadacha_3()
 
 
 print("\nЗадача 4\n")
-
-numbers = [-3, -2, -1, 0, 1, 2, 3]
-print(numbers)
-print(numbers[len(numbers)-2:len(numbers)]+ numbers[:len(numbers) -2])
+def zadacha_4():
+    numbers = [-3, -2, -1, 0, 1, 2, 3]
+    print(numbers)
+    print(numbers[len(numbers)-2:len(numbers)]+ numbers[:len(numbers) -2])
+zadacha_4()
